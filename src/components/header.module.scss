@@ -1,0 +1,56 @@
+@import "../styles/global.scss";
+
+.header {
+  min-height: 20vh;
+  padding: 3rem 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+
+  &__item {
+    color: $color-heading-1;
+    font-size: 3.5rem;
+    font-family: "Kaushan Script", cursive;
+    position: relative;
+    display: flex;
+
+    &_sub {
+      font-size: 2rem;
+      color: $color-heading-2;
+      position: absolute;
+      bottom: -1.8rem;
+      left: 18rem;
+      font-family: "Courier New", sans-serif;
+    }
+  }
+}
+
+.nav {
+  &__list {
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+  }
+
+  //   &__item {
+  //   }
+
+  &__link {
+    text-decoration: none;
+    margin-right: 1rem;
+    color: $color-heading-1-light;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      color: $color-heading-1;
+    }
+    &:active {
+      color: $color-text-primary;
+    }
+  }
+}

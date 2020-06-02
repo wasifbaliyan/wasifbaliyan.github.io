@@ -1,0 +1,29 @@
+@import "../styles/global.scss";
+
+.contact {
+  margin: 0 auto;
+  &__heading {
+    font-size: 2.8rem;
+    font-weight: 400;
+    color: $color-heading-2;
+  }
+
+  &__email {
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin: 1.5rem 0;
+    color: $color-text-secondary;
+  }
+}
+.list {
+  margin: 2rem 0;
+
+  &__item {
+    color: $color-text-primary;
+  }
+  &__link {
+    color: inherit;
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+}
