@@ -28,18 +28,18 @@
   margin-top: 1.5rem;
 
   &__heading {
+    margin-bottom: 1rem;
     @include secondary-heading;
   }
 }
 
 .heading {
-  margin-top: 1rem;
   @include tertiary-heading;
 }
 
 .tech {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 // .backend {
@@ -49,7 +49,19 @@
 .frontend,
 .backend,
 .general {
-  padding-right: 30px;
+  width: 250px;
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem 5rem 1.5rem 2rem;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #283848, #2f4256);
+  box-shadow: 5px 5px 9px #1e2a36, -5px -5px 9px #3a526a;
+
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
 }
 
 .language {
