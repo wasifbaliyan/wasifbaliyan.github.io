@@ -14,3 +14,9 @@ body {
   margin: 0 auto;
   font-family: Montserrat, sans-serif;
 }
+
+@media (max-width: 576px) {
+  body {
+    max-width: 90%;
+  }
+}
