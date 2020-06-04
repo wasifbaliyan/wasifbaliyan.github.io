@@ -17,6 +17,16 @@ const projects = [
     id: 1,
   },
   {
+    title: "My Portfolio Website",
+    desc:
+      "This is my Portfolio web app. It was built using GatsbyJS and I use SASS with css modules for styling.",
+    imgUrl:
+      "https://avatars2.githubusercontent.com/u/40515308?s=460&u=8f69eceda1b14aeca71cb94d5ff597d22263b318&v=4",
+    github: "https://github.com/wasifbaliyan/wasifbaliyan.github.io",
+    live: "https://wasifbaliyan.github.io",
+    id: 6,
+  },
+  {
     title: "The Color Game",
     desc:
       "This is a Color Game web app. It was built with HTML5, CSS3 and Vanilla JavaScript.",
