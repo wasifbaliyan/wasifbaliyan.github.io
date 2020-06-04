@@ -1,0 +1,55 @@
+@import "../styles/global.scss";
+
+.about {
+  width: 80%;
+}
+
+.main {
+  &__heading {
+    @include primary-heading;
+  }
+  &__text {
+    @include primary-text;
+  }
+}
+
+.education {
+  margin-top: 1.5rem;
+  &__heading {
+    @include secondary-heading;
+  }
+}
+
+.list {
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+  &__item {
+    @include list-text;
+  }
+}
+
+.skills {
+  margin-top: 1.5rem;
+
+  &__heading {
+    @include secondary-heading;
+  }
+}
+
+.heading {
+  margin-top: 1rem;
+  @include tertiary-heading;
+}
+
+.tech {
+  display: flex;
+  justify-content: space-between;
+}
+
+.language {
+  margin-top: 1.5rem;
+
+  &__heading {
+    @include secondary-heading;
+  }
+}

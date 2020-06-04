@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import style from "./index.module.scss"
 
 import Layout from "../components/layout"
@@ -16,16 +17,28 @@ const IndexPage = () => (
         <h1 className={style.content__heading}>Nice to meet you</h1>
         <p className={style.content__text}>
           My name’s <span className={style.content__name}>Wasif Baliyan</span>.
-          I’m a creative, ambitious, and self taught full stack{" "}
-          <span className={style.content__name_1}>JavaScript </span>
-          developer.
+          I’m a creative, ambitious, and self taught{" "}
+          <span className={style.content__name_1}>full-stack JavaScript </span>
+          developer living in{" "}
+          <span className={style.content__name_1}>New Delhi</span>.
         </p>
         <p className={style.content__text}>
-          Recently I joined{" "}
-          <span className={style.content__name_1}>Google </span>
-          in <span className={style.content__name_1}>London </span>to work on a
-          research project enabling meaningful control of data in distributed
-          systems. Previously I built a web-app at N26 in Berlin.
+          I mostly work with{" "}
+          <span className={style.content__name_1}>
+            MERN (MongoDB, Express, ReactJS and NodeJS) stack
+          </span>
+          .
+        </p>{" "}
+        <p className={style.content__text}>
+          If you want to hire me, feel free to{" "}
+          <Link className={style.content__link} to="/contact">
+            contact
+          </Link>{" "}
+          or{" "}
+          <Link className={style.content__link} to="/about">
+            get to know me better
+          </Link>
+          .
         </p>
       </div>
     </div>

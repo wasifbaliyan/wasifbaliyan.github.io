@@ -1,0 +1,10 @@
+@import "../styles/global.scss";
+
+.projects {
+  &__heading {
+    @include primary-heading;
+  }
+  &__text {
+    @include primary-text;
+  }
+}
