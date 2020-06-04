@@ -1,14 +1,17 @@
 @import "../styles/global.scss";
 
 .home {
-  display: flex;
   margin-bottom: 0.8rem;
 }
 
 .img {
   min-width: 300px;
-  height: auto;
-  padding-right: 3rem;
+  max-height: 300px;
+  float: left;
+
+  margin-right: 3rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 3px 5px 10px 0px #101723;
 }
 
 .content {
@@ -29,6 +32,17 @@
     color: $color-text-tertiary;
     &:hover {
       border-bottom: 1px solid #eee;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .content {
+    &__heading {
+      font-size: 2.2rem;
+    }
+    &__text {
+      font-size: 1.2rem;
     }
   }
 }

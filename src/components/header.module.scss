@@ -54,3 +54,36 @@
     }
   }
 }
+
+@media (max-width: 576px) {
+  .logo {
+    &__item {
+      font-size: 2.5rem;
+      &_sub {
+        font-size: 1.2rem;
+        bottom: -0.8rem;
+        left: 13rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 325px) {
+  .logo {
+    &__item {
+      font-size: 2rem;
+      &_sub {
+        font-size: 1rem;
+        bottom: -0.8rem;
+        left: 10rem;
+      }
+    }
+  }
+
+  .nav {
+    &__link {
+      margin-right: 0.8rem;
+      font-size: 0.8rem;
+    }
+  }
+}

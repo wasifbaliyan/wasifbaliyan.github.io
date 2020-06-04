@@ -1,9 +1,5 @@
 @import "../styles/global.scss";
 
-.about {
-  width: 80%;
-}
-
 .main {
   &__heading {
     @include primary-heading;
@@ -44,6 +40,16 @@
 .tech {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+// .backend {
+//   margin: 0 3rem;
+// }
+
+.frontend,
+.backend,
+.general {
+  padding-right: 30px;
 }
 
 .language {
@@ -53,3 +59,45 @@
     @include secondary-heading;
   }
 }
+
+@media (max-width: 576px) {
+  .main {
+    &__heading {
+      font-size: 2.2rem;
+    }
+    &__text {
+      font-size: 1.2rem;
+    }
+  }
+  .education {
+    &__heading {
+      font-size: 1.8rem;
+    }
+  }
+  .list {
+    &__item {
+      font-size: 1.2rem;
+    }
+  }
+
+  .skills {
+    &__heading {
+      font-size: 1.8rem;
+    }
+  }
+  .heading {
+    font-size: 1.6rem;
+  }
+
+  .language {
+    &__heading {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+// @media (max-width: 505px) {
+//   .backend {
+//     margin: 0;
+//   }
+// }
