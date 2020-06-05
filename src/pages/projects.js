@@ -66,6 +66,16 @@ const projects = [
     live: "https://wasifbaliyan.github.io/pig-game/",
     id: 5,
   },
+  {
+    title: "Start Up Website",
+    desc:
+      "Mountain Travel is a static Startup website for a  fictional travel company. It is built with HTML5 and CSS3.",
+    imgUrl:
+      "https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    github: "https://github.com/wasifbaliyan/startup-landing-page/",
+    live: "https://wasifbaliyan.github.io/startup-landing-page/",
+    id: 7,
+  },
 ]
 
 const Projects = () => (
