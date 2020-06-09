@@ -13,7 +13,9 @@ const Footer = () => (
     </span>
     by
     {` `}
-    <a href="https://twitter.com/wasifbaliyan">Wasif Baliyan</a>
+    <a className={style.footer__link} href="https://twitter.com/wasifbaliyan">
+      Wasif Baliyan
+    </a>
   </footer>
 )
 
