@@ -35,13 +35,14 @@
     list-style: none;
     text-transform: uppercase;
     display: flex;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
   }
 
   //   &__item {
   //   }
 
   &__link {
-    font-weight: 700;
     text-decoration: none;
     margin-right: 1rem;
     color: rgb(194, 194, 194);
@@ -49,12 +50,13 @@
     transition: all 0.2s ease-in-out;
 
     &:hover {
-      color: #eee;
-    }
-    &:active {
-      color: $color-heading-1;
+      color: #fff;
     }
   }
+}
+
+.active {
+  @include linear-gradient;
 }
 
 @media (max-width: 576px) {
