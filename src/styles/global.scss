@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;500&display=swap");
 
-$color-back-main: #2c3e50;
-// $color-back-main: #101723;
+// $color-back-main: #2c3e50;
+$color-back-main: #101723;
 
 $color-heading-1: #fdcb6e;
 $color-heading-1-light: #ffeaa7;
@@ -13,8 +13,9 @@ $color-text-tertiary: #eee;
 
 @mixin primary-heading {
   font-size: 2.8rem;
-  font-weight: 400;
-  color: $color-heading-2;
+  font-weight: 700;
+  color: #eee;
+  // color: $color-heading-2;
 }
 
 @mixin secondary-heading {
@@ -32,10 +33,32 @@ $color-text-tertiary: #eee;
 @mixin primary-text {
   font-size: 1.4rem;
   margin-top: 1rem;
-  color: $color-text-primary;
+  color: #eee;
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: 400;
 }
 
 @mixin list-text {
   color: $color-text-tertiary;
   font-size: 1.4rem;
+}
+
+@mixin box-shadow {
+  border-radius: 12px;
+  background: linear-gradient(145deg, #0e1520, #111925);
+  box-shadow: 5px 5px 9px #0c121b, -5px -5px 9px #141c2b;
+}
+
+@mixin linear-gradient {
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

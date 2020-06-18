@@ -17,14 +17,15 @@
     font-family: "Kaushan Script", cursive;
     position: relative;
     display: flex;
+    @include linear-gradient;
 
     &_sub {
       font-size: 2rem;
-      color: $color-heading-2;
       position: absolute;
       bottom: -1.8rem;
       left: 18rem;
-      font-family: "Courier New", sans-serif;
+      font-family: "Roboto Mono", monospace;
+      @include linear-gradient;
     }
   }
 }
@@ -40,17 +41,18 @@
   //   }
 
   &__link {
+    font-weight: 700;
     text-decoration: none;
     margin-right: 1rem;
-    color: $color-heading-1-light;
+    color: rgb(194, 194, 194);
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 
     &:hover {
-      color: $color-heading-1;
+      color: #eee;
     }
     &:active {
-      color: $color-text-primary;
+      color: $color-heading-1;
     }
   }
 }

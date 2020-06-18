@@ -53,9 +53,7 @@
   margin-right: 1rem;
   margin-bottom: 1.5rem;
   padding: 1rem 5rem 1.5rem 2rem;
-  border-radius: 12px;
-  background: linear-gradient(145deg, #283848, #2f4256);
-  box-shadow: 5px 5px 9px #1e2a36, -5px -5px 9px #3a526a;
+  @include box-shadow;
 
   transition: transform 0.2s;
 

@@ -23,11 +23,8 @@ const IndexPage = () => (
           <span className={style.content__name_1}>New Delhi</span>.
         </p>
         <p className={style.content__text}>
-          I mostly work with{" "}
-          <span className={style.content__name_1}>
-            MERN (MongoDB, Express, ReactJS and NodeJS) stack
-          </span>
-          .
+          I mostly work with <span className={style.content__name_1}>MERN</span>
+          (MongoDB, Express, ReactJS and NodeJS) stack.
         </p>{" "}
         <p className={style.content__text}>
           If you want to hire me, feel free to{" "}
