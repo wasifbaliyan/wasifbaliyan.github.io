@@ -5,12 +5,13 @@
     @include primary-heading;
   }
   &__text {
+    margin-top: 1.8rem;
     @include primary-text;
   }
 }
 
 .education {
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
   &__heading {
     @include secondary-heading;
   }
@@ -25,10 +26,9 @@
 }
 
 .skills {
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
 
   &__heading {
-    margin-bottom: 1rem;
     @include secondary-heading;
   }
 }
@@ -63,7 +63,7 @@
 }
 
 .language {
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
 
   &__heading {
     @include secondary-heading;

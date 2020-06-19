@@ -17,23 +17,26 @@
 .content {
   &__heading {
     @include primary-heading;
+    margin-bottom: 1.8rem;
   }
+
   &__name {
     color: #eee;
-    font-weight: 400;
+    font-weight: 700;
   }
   &__name_1 {
     color: #eee;
-    font-weight: 400;
+    font-weight: 700;
   }
   &__text {
     @include primary-text;
   }
   &__link {
     text-decoration: none;
-    color: $color-text-tertiary;
+    color: $link-text-color;
+    border-bottom: 1px solid $link-text-color;
     &:hover {
-      border-bottom: 1px solid rgba($color-white, 0.8);
+      border-bottom: none;
     }
   }
 }

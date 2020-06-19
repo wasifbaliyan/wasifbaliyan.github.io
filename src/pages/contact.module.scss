@@ -5,23 +5,49 @@
   &__heading {
     @include primary-heading;
   }
+  &__text {
+    margin-top: 1.8rem;
+    @include primary-text;
+  }
+  &__link {
+    color: $link-text-color;
 
-  &__email {
-    font-size: 1.8rem;
-    font-weight: 300;
-    margin: 1.5rem 0;
-    color: $color-text-secondary;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.social {
+  margin-top: 2.5rem;
+  &__heading {
+    @include secondary-heading;
   }
 }
 .list {
-  margin: 2rem 0;
-  padding-left: 1.5rem;
-
+  margin-top: 1.8rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
   &__item {
-    @include list-text;
+    padding: 1rem;
+    margin-right: 1rem;
+
+    background-color: $link-text-color;
+    color: $color-white;
+    border-radius: 50%;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: rgba($link-text-color, 0.8);
+    }
   }
   &__link {
     color: inherit;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 
@@ -30,13 +56,14 @@
     &__heading {
       font-size: 2.2rem;
     }
-
-    &__email {
-      font-size: 1.5rem;
+    &__text {
+      font-size: 1.2rem;
     }
   }
   .list {
+    flex-wrap: wrap;
     &__item {
+      margin-bottom: 1rem;
       font-size: 1.2rem;
     }
   }

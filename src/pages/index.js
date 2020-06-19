@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { Smile } from "react-feather"
 import style from "./index.module.scss"
 
 import Layout from "../components/layout"
@@ -14,11 +15,14 @@ const IndexPage = () => (
         <Image />
       </div>
       <div className={style.content}>
-        <h1 className={style.content__heading}>Nice to meet you</h1>
+        <h1 className={style.content__heading}>
+          Nice to meet you{" "}
+          <Smile style={{ marginBottom: "-.3rem" }} size={40} />
+        </h1>
         <p className={style.content__text}>
           My name’s <span className={style.content__name}>Wasif Baliyan</span>.
-          I’m a creative, ambitious, and self taught{" "}
-          <span className={style.content__name_1}>full-stack JavaScript </span>
+          I’m a creative, ambitious, and self taught full-stack{" "}
+          <span className={style.content__name_1}> JavaScript </span>
           developer living in{" "}
           <span className={style.content__name_1}>New Delhi</span>.
         </p>
