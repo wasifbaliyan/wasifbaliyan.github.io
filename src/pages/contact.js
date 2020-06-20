@@ -37,7 +37,7 @@ const Contact = () => (
 
       <div className={style.social}>
         <h2 className={style.social__heading}>
-          Other Social Mediums{" "}
+          Other Social Media{" "}
           <Heart style={{ marginBottom: "-.3rem" }} size={30} />
         </h2>
         <ul className={style.list}>

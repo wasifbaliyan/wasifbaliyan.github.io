@@ -20,7 +20,9 @@ const Project = ({ project }) => {
       <h3 className={style.project__title}>{project.title}</h3>
       <div className={style.project__content}>
         {project.tags.map(tag => (
-          <span className={style.project__tag}>{tag}</span>
+          <span key={tag} className={style.project__tag}>
+            {tag}
+          </span>
         ))}
         <p className={style.project__text}>{project.desc}</p>
         <div className={style.btngroup}>
