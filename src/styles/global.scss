@@ -14,6 +14,11 @@ $color-text-secondary: #706fd3;
 $color-text-tertiary: #eee;
 $link-text-color: #0984e3;
 
+$color-primary-light: #2998ff;
+$color-primary-dark: #5643fa;
+// $color-tertiary-light: #2998ff;
+// $color-tertiary-dark: #5643fa;
+
 @mixin primary-heading {
   font-family: "Roboto", sans-serif;
   font-size: 2.8rem;

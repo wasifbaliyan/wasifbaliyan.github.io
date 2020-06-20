@@ -4,6 +4,7 @@ import style from "./projects.module.scss"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Project from "../components/project"
+import { Trello } from "react-feather"
 
 const projects = [
   {
@@ -15,6 +16,7 @@ const projects = [
     github: "https://github.com/wasifbaliyan/myburger",
     live: "https://wasifbaliyan.github.io/myburger/",
     id: 1,
+    tags: ["#firebase", "#reactjs"],
   },
   {
     title: "My Portfolio Website",
@@ -25,6 +27,7 @@ const projects = [
     github: "https://github.com/wasifbaliyan/wasifbaliyan.github.io",
     live: "https://wasifbaliyan.github.io",
     id: 6,
+    tags: ["#gatsbyjs", "#github"],
   },
   {
     title: "The Color Game",
@@ -35,6 +38,7 @@ const projects = [
     github: "https://github.com/wasifbaliyan/color-game",
     live: "https://wasifbaliyan.github.io/color-game/",
     id: 2,
+    tags: ["#javascript", "#css3", "html5"],
   },
   {
     title: "Random Quotes Generator",
@@ -45,6 +49,7 @@ const projects = [
     github: "https://github.com/wasifbaliyan/random-quotes",
     live: "https://wasifbaliyan.github.io/random-quotes/",
     id: 3,
+    tags: ["#api", "#reactjs"],
   },
   {
     title: "Monster Rolodex",
@@ -55,6 +60,7 @@ const projects = [
     github: "https://github.com/wasifbaliyan/monster-rolodex",
     live: "https://wasifbaliyan.github.io/monster-rolodex/",
     id: 4,
+    tags: ["#javascript", "#reactjs"],
   },
   {
     title: "The Pig Game",
@@ -65,6 +71,7 @@ const projects = [
     github: "https://github.com/wasifbaliyan/pig-game",
     live: "https://wasifbaliyan.github.io/pig-game/",
     id: 5,
+    tags: ["#javascript", "#html5", "#css3"],
   },
   {
     title: "Start Up Website",
@@ -75,6 +82,7 @@ const projects = [
     github: "https://github.com/wasifbaliyan/startup-landing-page/",
     live: "https://wasifbaliyan.github.io/startup-landing-page/",
     id: 7,
+    tags: ["#html5", "#css3"],
   },
 ]
 
@@ -82,7 +90,9 @@ const Projects = () => (
   <Layout>
     <SEO title="Projects" />
     <div className={style.projects}>
-      <h1 className={style.projects__heading}>Projects</h1>
+      <h1 className={style.projects__heading}>
+        Projects <Trello size={40} style={{ marginBottom: "-.3rem" }} />
+      </h1>
       <div className={style.projects__content}>
         {projects.map(project => (
           <Project key={project.id} project={project} />
