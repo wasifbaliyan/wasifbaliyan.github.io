@@ -67,7 +67,7 @@ const Contact = () => (
           </li>
           <li className={style.list__item}>
             <a
-              href="https://linkedin.com/in/wasifbaliyan"
+              href="https://instagram.com/wasifbaliyan"
               className={style.list__link}
             >
               <Instagram size={40} />
