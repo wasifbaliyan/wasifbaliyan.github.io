@@ -8,7 +8,7 @@ import { Trello } from "react-feather"
 
 const projects = [
   {
-    title: "My Burger",
+    title: "MyBurger",
     desc:
       "This is a burger ordering web app. It was built with ReactJS at frontend and firebase at backend. I use Redux for state management.",
     imgUrl:
@@ -19,7 +19,7 @@ const projects = [
     tags: ["#firebase", "#reactjs"],
   },
   {
-    title: "My Portfolio Website",
+    title: "Portfolio Website",
     desc:
       "This is my Portfolio web app. It was built using GatsbyJS and I use SASS with css modules for styling.",
     imgUrl:
@@ -30,7 +30,7 @@ const projects = [
     tags: ["#gatsbyjs", "#github"],
   },
   {
-    title: "The Color Game",
+    title: "Color Game",
     desc:
       "This is a Color Game web app. It was built with HTML5, CSS3 and Vanilla JavaScript.",
     imgUrl:
@@ -38,7 +38,7 @@ const projects = [
     github: "https://github.com/wasifbaliyan/color-game",
     live: "https://wasifbaliyan.github.io/color-game/",
     id: 2,
-    tags: ["#javascript", "#css3", "html5"],
+    tags: ["#javascript", "#css3", "#html5"],
   },
   {
     title: "Random Quotes Generator",
@@ -63,7 +63,7 @@ const projects = [
     tags: ["#javascript", "#reactjs"],
   },
   {
-    title: "The Pig Game",
+    title: "Dice Pig Game",
     desc:
       "This is a Pig Game web app. It was built with HTML5, CSS3 and  vanilla JavaScript.",
     imgUrl:
@@ -74,7 +74,7 @@ const projects = [
     tags: ["#javascript", "#html5", "#css3"],
   },
   {
-    title: "Start Up Website",
+    title: "StartUp Website",
     desc:
       "Mountain Travel is a static Startup website for a  fictional travel company. It is built with HTML5 and CSS3.",
     imgUrl:
