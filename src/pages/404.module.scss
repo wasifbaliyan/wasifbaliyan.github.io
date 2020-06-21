@@ -5,15 +5,24 @@
 
   &__text {
     @include primary-text;
-    margin-bottom: 1rem;
+    margin: 1.8rem 0;
   }
 
   &__link {
     font-size: 1.2rem;
-    color: $color-heading-1-light;
+    color: $link-text-color;
     transition: all 0.2s ease-in-out;
     &:hover {
-      color: $color-heading-1;
+      text-decoration: none;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .notfound {
+    font-size: 2.2rem;
+    &__text {
+      font-size: 1.2rem;
     }
   }
 }
