@@ -1,17 +1,20 @@
 @import "../styles/global.scss";
 
 .home {
-  margin-bottom: 0.8rem;
+  margin: 2rem 0;
 }
 
 .img {
-  min-width: 280px;
-  max-height: 280px;
+  min-width: 220px;
+  max-height: 220px;
   float: left;
+  border-radius: 50%;
+  overflow: hidden;
 
   margin-right: 3rem;
   margin-bottom: 1.5rem;
-  box-shadow: 3px 5px 10px 0px $color-back-main;
+  box-shadow: 1px 1px 0px 8px rgb(209, 75, 93);
+  // box-shadow: 3px 5px 10px 0px $color-back-main;
 }
 
 .content {
@@ -30,6 +33,7 @@
   }
   &__text {
     @include primary-text;
+    margin-bottom: 0.8rem;
   }
   &__link {
     text-decoration: none;
@@ -45,9 +49,6 @@
   .content {
     &__heading {
       font-size: 2.2rem;
-    }
-    &__text {
-      font-size: 1.2rem;
     }
   }
 }

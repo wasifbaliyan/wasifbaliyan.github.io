@@ -19,11 +19,13 @@ const Project = ({ project }) => {
       </div>
       <h3 className={style.project__title}>{project.title}</h3>
       <div className={style.project__content}>
-        {project.tags.map(tag => (
-          <span key={tag} className={style.project__tag}>
-            {tag}
-          </span>
-        ))}
+        <div className={style.project__tags}>
+          {project.tags.map(tag => (
+            <span key={tag} className={style.project__tag}>
+              {tag}
+            </span>
+          ))}
+        </div>
         <p className={style.project__text}>{project.desc}</p>
         <div className={style.btngroup}>
           <a className={style.btngroup__btn} href={project.github}>

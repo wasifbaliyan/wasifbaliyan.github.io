@@ -21,7 +21,7 @@
 .social {
   margin-top: 2.5rem;
   &__heading {
-    @include secondary-heading;
+    @include tertiary-heading;
   }
 }
 .list {
@@ -30,7 +30,7 @@
   display: flex;
   align-items: center;
   &__item {
-    padding: 1rem;
+    padding: 0.8rem;
     margin-right: 1rem;
 
     background-color: $link-text-color;
@@ -43,6 +43,8 @@
     }
   }
   &__link {
+    display: flex;
+    align-items: center;
     color: inherit;
 
     &:hover {

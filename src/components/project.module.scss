@@ -2,7 +2,8 @@
 
 .project {
   @include box-shadow;
-  max-width: 350px;
+  max-width: 280px;
+  width: 280px;
   margin-right: 1rem;
   margin-bottom: 2rem;
   transition: transform 0.2s;
@@ -41,14 +42,21 @@
       rgba($color-primary-dark, 0.85)
     );
   }
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
 
   &__tag {
-    color: $link-text-color;
-    margin-right: 1rem;
+    color: $color-white;
+    background-color: $link-text-color;
+    padding: 0.1rem;
+    border-radius: 5px;
+    margin: 0.3rem 0.5rem 0.3rem 0;
   }
   &__text {
     @include primary-text;
-    font-size: 1.2rem;
     margin-top: 1.5rem;
   }
   &:hover {
@@ -79,9 +87,6 @@
   .project {
     &__title {
       font-size: 1.6rem;
-    }
-    &__text {
-      font-size: 1.2rem;
     }
   }
 

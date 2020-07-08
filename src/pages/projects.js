@@ -9,8 +9,7 @@ import { Trello } from "react-feather"
 const projects = [
   {
     title: "MyBurger",
-    desc:
-      "This is a burger ordering web app. It was built with ReactJS at frontend and firebase at backend. I use Redux for state management.",
+    desc: "MyBurger Web App.",
     imgUrl:
       "https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     github: "https://github.com/wasifbaliyan/myburger",
@@ -20,8 +19,7 @@ const projects = [
   },
   {
     title: "Portfolio Website",
-    desc:
-      "This is my Portfolio web app. It was built using GatsbyJS and I use SASS with css modules for styling.",
+    desc: "Portfolio web app.",
     imgUrl:
       "https://avatars2.githubusercontent.com/u/40515308?s=460&u=8f69eceda1b14aeca71cb94d5ff597d22263b318&v=4",
     github: "https://github.com/wasifbaliyan/wasifbaliyan.github.io",
@@ -31,8 +29,7 @@ const projects = [
   },
   {
     title: "Color Game",
-    desc:
-      "This is a Color Game web app. It was built with HTML5, CSS3 and Vanilla JavaScript.",
+    desc: "Color Game web app.",
     imgUrl:
       "https://images.pexels.com/photos/1150626/pexels-photo-1150626.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     github: "https://github.com/wasifbaliyan/color-game",
@@ -42,8 +39,7 @@ const projects = [
   },
   {
     title: "Random Quotes Generator",
-    desc:
-      "This is a Random Quote Generator web app. It was built with ReactJS.",
+    desc: "Random Quote Generator.",
     imgUrl:
       "https://images.pexels.com/photos/1395463/pexels-photo-1395463.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     github: "https://github.com/wasifbaliyan/random-quotes",
@@ -53,8 +49,7 @@ const projects = [
   },
   {
     title: "Monster Rolodex",
-    desc:
-      "This is a Monster Rolodex web app. It was built with ReactJS and a random robots genrator api.",
+    desc: "Monster Rolodex web app.",
     imgUrl:
       "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     github: "https://github.com/wasifbaliyan/monster-rolodex",
@@ -64,8 +59,7 @@ const projects = [
   },
   {
     title: "Dice Pig Game",
-    desc:
-      "This is a Pig Game web app. It was built with HTML5, CSS3 and  vanilla JavaScript.",
+    desc: "Pig Game web app. ",
     imgUrl:
       "https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     github: "https://github.com/wasifbaliyan/pig-game",
@@ -75,8 +69,7 @@ const projects = [
   },
   {
     title: "StartUp Website",
-    desc:
-      "Mountain Travel is a static Startup website for a  fictional travel company. It is built with HTML5 and CSS3.",
+    desc: "Mountain Travel Startup web app.",
     imgUrl:
       "https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     github: "https://github.com/wasifbaliyan/startup-landing-page/",

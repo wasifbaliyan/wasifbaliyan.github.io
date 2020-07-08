@@ -33,7 +33,7 @@ const IndexPage = () => (
         <p className={style.content__text}>
           If you want to hire me, feel free to{" "}
           <Link className={style.content__link} to="/contact">
-            contact
+            contact me
           </Link>{" "}
           or{" "}
           <Link className={style.content__link} to="/about">

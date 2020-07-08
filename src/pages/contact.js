@@ -18,7 +18,7 @@ const Contact = () => (
     <SEO title="Contact" />
     <div className={style.contact}>
       <h1 className={style.contact__heading}>
-        Say Hello <PhoneCall size={40} style={{ marginBottom: "-.3rem" }} />
+        Say Hello <PhoneCall size={35} style={{ marginBottom: "-.3rem" }} />
       </h1>
       <p className={style.contact__text}>
         I always love hearing from you. I'll be happy to connect with you on{" "}
@@ -46,7 +46,7 @@ const Contact = () => (
               href="https://twitter.com/wasifbaliyan"
               className={style.list__link}
             >
-              <Twitter size={40} />
+              <Twitter size={30} />
             </a>
           </li>
           <li className={style.list__item}>
@@ -54,7 +54,7 @@ const Contact = () => (
               href="https://github.com/wasifbaliyan"
               className={style.list__link}
             >
-              <GitHub size={40} />
+              <GitHub size={30} />
             </a>
           </li>
           <li className={style.list__item}>
@@ -62,7 +62,7 @@ const Contact = () => (
               href="https://linkedin.com/in/wasifbaliyan"
               className={style.list__link}
             >
-              <Linkedin size={40} />
+              <Linkedin size={30} />
             </a>
           </li>
           <li className={style.list__item}>
@@ -70,7 +70,7 @@ const Contact = () => (
               href="https://instagram.com/wasifbaliyan"
               className={style.list__link}
             >
-              <Instagram size={40} />
+              <Instagram size={30} />
             </a>
           </li>
         </ul>
