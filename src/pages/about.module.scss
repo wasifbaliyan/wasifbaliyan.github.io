@@ -73,35 +73,27 @@
 @media (max-width: 576px) {
   .main {
     &__heading {
-      font-size: 2.2rem;
-    }
-    &__text {
-      font-size: 1.2rem;
+      font-size: 1.8rem;
     }
   }
   .education {
     &__heading {
-      font-size: 1.8rem;
-    }
-  }
-  .list {
-    &__item {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
     }
   }
 
   .skills {
     &__heading {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
     }
   }
   .heading {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 
   .language {
     &__heading {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
     }
   }
 }
